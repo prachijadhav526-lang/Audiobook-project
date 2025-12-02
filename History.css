@@ -1,0 +1,271 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.Navbar
+{
+    height:80px;
+    width:1500px;
+    background-color:rgb(110, 155, 155);
+    background-color: rgb(156, 156, 173);
+    text-align: right;
+    font-size: 25px;
+}
+.container1
+{
+    height:400px;
+    width:500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color:#101010;
+    font-size: 32px;
+    text-align:left;
+}
+.b1
+{
+    height:200px;
+    display: flex;
+    width:1400px;
+    margin-left: 60px;
+    font-size: 22px;
+    transform: translateY(-180%);
+    position: relative;
+    z-index: -1;
+    background-color: rgb(233, 229, 225); ;
+   
+  
+
+}
+
+    /*background-color:rgb(169, 130, 149);
+    background-color: rgb(148, 174, 165);
+    background-color: rgb(156, 156, 173);*/
+
+
+.container4
+
+{
+    height: 500px;
+    width:1500px;
+    margin-top: 180px;
+}
+
+.b6
+{
+  height:400px;
+  width:1000px;
+ /* background-color: #4d778e;*/
+  margin-left: 240px;
+  position: absolute;
+  text-align: center;
+  margin-top: -550px;
+ /* box-shadow: 0px 0px 10px rgb(31, 35, 46) inset;*/
+  overflow: hidden;
+  color:#5f5959;
+  font-size: 22px;
+}
+.containerB {
+  display: grid;
+  grid-template-columns:auto auto;
+  background-color: dodgerblue;background-color: rgb(156, 156, 173);
+  width: 1300px;
+  height: 300px;
+  gap: -40px;
+  position: relative;
+  z-index: -1;
+   transform: translateY(-90%);
+}
+.containerB > div {
+  background-color: #f1f1f1;
+  border:none;
+  padding: 10px;
+  height: 500px;
+  font-size: 21px;
+  text-align: center;
+}
+.inner 
+{
+    border: 5px solid rgb(156, 156, 173);
+    border-style: double;
+    height: 90%;
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-top:6px;
+    font-size: 22px;
+    /*box-sizing: border-box;*/
+    padding: 5px;
+    text-align: justify;
+    color: rgb(84, 91, 84);
+    overflow: hidden;
+}
+.inner2
+{
+    border: 5px solid rgb(156, 156, 173);
+    border-style: double;
+    height: 90%;
+    width: 90%;
+    margin-left: -40px;
+    margin-right: 10px;font-size: 22px;
+    margin-top:6px;
+    /*box-sizing: border-box;*/
+    padding: 5px;
+    text-align: center;
+    color: rgb(84, 91, 84);
+    overflow: hidden;
+}
+.containera
+{
+    width: 1400px;
+    height: 300px;
+    background-color:rgb(233, 229, 225);
+    font-size: 22px;
+    align-items: center;
+    margin-left: 70px;
+}
+.containerc
+{
+    width: 900px;
+    height: 120px;
+    display: flex;
+    background-color:rgb(233, 229, 225);
+    font-size: 21px;
+   text-align: center;
+    margin-left:270px;
+    margin-bottom: 40px;
+    color: #554848;
+}
+.top-hidden
+{
+    position: fixed;
+    transition: 0.4s;
+    top:0px;
+    left:0;
+    width:100%;
+    transform: translateY(-100%);
+}
+.top-visible
+{
+    transform: translateY(0);
+}
+.navbar-toggler-icon
+{
+  margin-top: -9px;
+  padding: 35px;
+   
+}
+.navbar-nav
+{
+    gap: 20px;
+   padding: 10px;
+   margin-left: -90px;
+    font-size: 27px;
+    color: aliceblue;
+}
+.container
+{
+    height: 100%;
+}
+.navbara
+{
+    background-color: rgb(156, 156, 173);
+}
+.navbarb
+{
+    background-color: rgb(156, 156, 173);
+}
+a:hover {
+ background-color:rgb(205, 200, 196);
+ padding: 2px;
+
+}
+@media screen and (max-width:600px)
+  {
+    body
+    {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .containerB
+    {
+        width: 90%;
+        display: block;
+        margin-top: -290px;
+        margin-left: 27px;
+        gap: 20px;
+    }
+    .navbar-nav
+    {
+        margin-left: 20px;
+    }
+    .b1
+    {
+        width:100%;
+        height: 350px;
+        margin-left: 20px;
+        overflow: hidden;
+        margin-top: 300px;
+    }
+    .inner
+    {
+        margin-left: 30px;
+       
+    }
+    .inner2
+    {
+        margin-left: +32px;
+        margin-top: -20px;
+    }
+    .containerc
+    {
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 450px;
+    }
+    .containera
+    {
+        width: 100%;
+        margin-left: 20px;
+        height: 30%;
+    }
+    .b6
+    {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+
+  }
+@media screen and (min-width:768px)
+{
+    .containerB
+    {
+       width: 100%;
+    }
+    .b1
+    {
+        width:90%;
+        overflow: hidden;
+        
+    }
+    .containerc
+    {
+        width: 60%;
+    }
+    .containera
+    {
+        width: 90%;
+        overflow: hidden;
+    }
+    .b6
+    {
+        width: 70%;
+    }
+    .inner2
+    {
+       width:100%;
+      
+    }
+
+}
