@@ -1,0 +1,63 @@
+.b6
+{
+    height:500px;
+    width: 1200px;
+    transform: translateY(-57%);
+    background-color: rgb(121, 139, 120);
+    margin-left: 230px;
+    margin-top: 350px;   
+    
+}
+.container5
+{
+    height: 200px;
+    width: 800px;
+    margin-top: 20px;
+    background-color: rgb(236, 233, 231);
+    font-size: 21px;
+    margin-left: 230px;
+    font-weight: 300;color: #575151;
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+    
+    body
+    {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+   .container5
+   {
+    width: 90%;
+    height:500px;
+    display:block;
+    margin-left: 20px;
+   }
+   
+   .b6
+   {
+    width: 100%;
+    overflow: hidden;
+    margin-left:0px;
+   }
+   
+}
+
+@media only screen and (min-width: 768px)
+{
+   .container5
+   {
+    width: 70%;
+    height: 70%;
+   overflow: hidden;
+ 
+   }
+   
+   .b6
+   {
+    width: 70%;
+    display: flex;
+   }
+}

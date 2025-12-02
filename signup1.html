@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup1.css">
+</head>
+<body>
+     <h1 style="text-align: center; margin-top: 40px; font-weight: 300;"><i>Welcome to Audio Edition Of Kokan</i></h1>
+     <p style="text-align: center;"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure labore praesentium blanditiis. Cupiditate incidunt minima tempora, deleniti iusto corrupti magni!</i></p>
+     <p style="text-align: center;"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellendus.</i></p>
+    <div class="container">
+        
+        <form id="form" action="/" autocomplete="off">
+            <div class="boxa">
+            <div class=ba><h1 style="margin-left:150px ;">SignUp</h1></div>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+                
+            </div>   
+            
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+                 
+               
+            </div>
+
+
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+               
+            </div>
+
+            
+           <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+                
+            </div>
+            <div class="link">
+            <a href="forgotpassword2.html"><p style="margin-top:-10px ;color: #000;font-size: 14px;">Forget Password ? Click Here!!!!!</p></a>
+            </div>
+            <div class=button1 style="margin-top: -15px;"><button type="submit"onclick="fun()">Sign Up</button></div>
+            </div>
+        <div class="box2">
+             <div class=b1><h1 style="margin-right:+30px">Login</h1></div>
+             
+             <div class="boxb">
+           <div class="input-control">
+                <label for="email2">Email2</label>
+                <input id="email2" name="email2" type="text">
+                <div class="error"></div>
+                
+            </div>
+           
+            <div class="input-control">
+                <label for="password3">Password again</label>
+                <input id="password3" name="password3" type="password">
+                <div class="error"></div>
+                
+            </div>
+
+            
+            <div class=button1 style="margin-top:-15px;"><button type="submit"onclick="fun()">Login</button></div>
+             </div>
+        
+        </div>
+    </form>
+</div>
+     <script type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+            return"logout please";
+                
+        }
+        
+   
+        function fun() {
+            alert("After Submitting Both The Forms You Will Reach To Home Page!");
+        }
+ 
+    </script>
+
+
+      <script src="script.js"></script>
+</body>
+</html>

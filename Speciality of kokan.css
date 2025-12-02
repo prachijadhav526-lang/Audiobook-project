@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+}
+.b5
+{
+    
+ 
+    width:100%;
+    margin-top:21px;
+   margin-left: 60px;
+    overflow:hidden;
+    font-size: 19px;
+    font-weight: 500; color: #312c2c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carousel-control-prev
+{
+    margin-top: -150px;
+    color: #fff;
+}
+.carousel-control-next
+{
+    margin-top: -150px;
+    color: #fff;
+}
+.carousel-caption2
+{
+    margin-top:px;  font-size:21px;
+}

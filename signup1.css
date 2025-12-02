@@ -1,0 +1,149 @@
+body {
+    /*background: linear-gradient(to right, #0f2027, #203a43, #2c5364);*/
+    background-color: rgb(255, 253, 251);
+    background-size:cover;
+    background-image:url(images2/desk-setup-office-blank-mockup-empty-wall-desk-supplies-banner-wide-view_176841-32129.avif);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#form {
+    width: 900px;
+    margin: 20vh auto 0 auto;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-left: 250px;
+    margin-top: -20px;
+   
+}
+
+#form h1 {
+    color: #000203;
+    text-align:left;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 18px;font-size: 14px;
+    width: 30%;
+    color: white;
+    /*background-color: rgb(41, 57, 194);*/
+    background-color: rgb(145, 141, 137);
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 40%;
+    margin-top: 1px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+   border-color: #09c372;
+   box-shadow:0px 0px 10px rgb(205, 190, 190);
+    
+}
+.input-control.error input {
+  
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    /*color: #9f38ff;*/
+    color: #ff3860;
+    font-size: 13px;
+    margin-top: 4x;
+    height: 30px;
+    margin-top: 3px;
+}
+.box2
+{
+    margin-left: 500px;
+    margin-top: -458px;
+    width: 90%;
+}
+.b1
+{
+    margin-left: 100px;
+}
+.boxa
+{
+    margin-top: -20px;
+    margin-left: -5px;
+}
+.boxb
+{
+    margin-top:20px;
+}
+
+
+@media only screen and (max-width: 600px) 
+{ 
+    body
+    {
+        width: 90%;
+        height: 1500px;
+        background-image: cover;
+    
+    }
+    .input-control
+    {
+        margin-left: -210px;
+        width: 80%;
+    }
+    .box2
+    {
+        margin-left: 1px;
+        margin-top: 70px;
+    }
+    .b1
+    {
+        margin-left: -90px;
+    }
+    .ba
+    {
+        margin-left: -230px;
+    }
+    .button1
+    {
+        margin-left: -130px;
+        width:400px;
+        margin-top: -10px;
+    }
+    .link
+    {
+        margin-left: -210px;
+       
+        
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+   .input-control
+   {
+    width: 90%;
+    height: 100%;
+   }
+   .input-control
+   {
+    width: 90%;
+   }
+}

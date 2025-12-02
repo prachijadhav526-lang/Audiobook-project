@@ -1,0 +1,128 @@
+
+.row
+{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin-left: 450px;margin-top: -650px;
+}
+.row2 .h1
+{
+    font-size: 22px;
+}
+.form-group
+{
+    text-align: center;
+}
+.row2
+{
+    text-align: center;
+}
+.footer
+{
+   margin-left: 210px;
+   margin-top: 30px;
+}
+.footer :hover
+{
+    background-color:rgb(125, 121, 118);padding: 8px;
+}
+.row .form-group label
+{
+    display:block;font-size: 17px; background-color:rgb(125, 121, 118);
+    color:black;
+    text-align: left;
+    font-weight: 600;
+    margin-top: -40px;
+    margin-left: 40px;
+
+}
+.row .form-group input:focus, .row .form-group button:focus
+{
+    background-color:rgb(242, 238, 234);
+    color: #000;
+    width: 300px;
+    height: 30px;
+    animation:pluse 1s infinite ease;
+
+}
+.row .form-group button
+{
+   border: 1px #fff; background-color:rgb(203, 188, 188) ;
+    outline: none;font-size: 14px;
+    -moz-user-select:none;
+    user-select: none;
+    color: #35383a;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top:2em;
+    padding: 1em;
+}
+.row .form-group button:hover, .row .form-group button:focus
+{
+    background-color:#a29b9b;height: 40px;
+
+}
+.row .form-group button.is-loading::after
+{
+    animation: spinner 500ms  infinite linear;
+    content: '';
+    position: absolute;
+    margin-left: 2em;
+    
+    border-right-color:transparent;
+    border-left-color:transparent;
+    height:1em;
+    width: 4%
+    
+}
+.row .footer h5
+{
+    margin: 1em;
+}
+.row .footer p
+{
+    margin-top: 2em;
+}
+.row .footer p .symbols
+{
+    color:#033258
+}
+.row .footer a{
+    color: inherit;
+    text-decoration: none;
+}
+.information-text
+{
+    color: #3a3434;font-size: 17px;
+}
+@media screen and (max-width:600px)
+{
+    .row
+    {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -630px;
+        
+    }
+    .footer
+    {
+        margin-left: 170px;
+    }
+    .row .form-group label
+    {
+        margin-left:10px;
+    }
+}
+
+@media screen and (min-width:768px)
+{
+    .row
+    {
+        width: 36%;
+    }
+    .footer
+    {
+        margin-left: +43%;
+    }
+}
